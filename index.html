@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Quiz_Board</title>
-  </head>
-  <body>
-    <h1>QUIZ BOARD</h1>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>JS Quiz Board</title>
+  <link rel="stylesheet" href="bootstrap-practice/css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="pull-left">JAVASCRIPT QUIZ</div>
+      <div class="pull-right">by Denzel Ouma</div>
+    </header>
+    <h1>JAVASCRIPT QUIZ BOARD</h1>
+    <main>
+      <form class="jsForm" id="quiz1" data-question="1" action="index.html" method="post">
+        <h3>1. Which one of the following is not a JavaScript Data Type?</h3>
+        <ul>
+          <li><input name="quiz1" type="radio" value="a">Number</li>
+          <li><input name="quiz1" type="radio" value="b">String</li>
+          <li><input name="quiz1" type="radio" value="c">Boolean</li>
+          <li><input name="quiz1" type="radio" value="d">HTML</li>
+        </ul>
+        <button id="submit" type="button" name="button">Submit</button>
+      </form>
+
+      <form class="jsForm" id="quiz2" data-question="2" action="index.html" method="post">
+        <h3>2. Which symbol is used for a single comments in Javascript?</h3>
+        <ul>
+          <li><input name="quiz2" type="radio" value="a">//</li>
+          <li><input name="quiz2" type="radio" value="b">/*</li>
+          <li><input name="quiz2" type="radio" value="c">||</li>
+          <li><input name="quiz2" type="radio" value="d">&&</li>
+        </ul>
+        <button id="submit" type="button" name="button">Submit</button>
+      </form>
+
+      <form class="jsForm" id="quiz3" data-question="3" action="index.html" method="post">
+        <h3>3. Which one of the following is not a looping structure in JavaScript?</h3>
+        <ul>
+          <li><input name="quiz3" type="radio" value="a">For</li>
+          <li><input name="quiz3" type="radio" value="b">While</li>
+          <li><input name="quiz3" type="radio" value="c">do-while loops</li>
+          <li><input name="quiz3" type="radio" value="d">else if</li>
+        </ul>
+        <button id="submit" type="button" name="button">Submit</button>
+      </form>
+
+      <form class="jsForm" id="quiz4" data-question="4" action="index.html" method="post">
+        <h3>4. Which one of the following is not an undefined value in JavaScript?</h3>
+        <ul>
+          <li><input name="quiz4" type="radio" value="a">Variable used in the code doesn't exist</li>
+          <li><input name="quiz4" type="radio" value="b">jQuery</li>
+          <li><input name="quiz4" type="radio" value="c">Variable is not assigned to any value</li>
+          <li><input name="quiz4" type="radio" value="d">Property doesn't exist</li>
+        </ul>
+        <button id="submit" type="button" name="button">Submit</button>
+      </form>
+
+      <form class="jsForm" id="quiz5" data-question="5" action="index.html" method="post">
+        <h3>5. Which one of the following is not a type of Pop up boxes available in JavaScript?</h3>
+        <ul>
+          <li><input name="quiz5" type="radio" value="a">Alert</li>
+          <li><input name="quiz5" type="radio" value="b">Confirm and</li>
+          <li><input name="quiz5" type="radio" value="c">Pop up</li>
+          <li><input name="quiz5" type="radio" value="d">Prompt</li>
+        </ul>
+        <button id="submit" type="button" name="button">Submit</button>
+      </form>
+    </main>
+
+
+  </div>
+
+</body>
+
 </html>
