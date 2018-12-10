@@ -17,7 +17,7 @@
     </header>
     <h1>JAVASCRIPT QUIZ BOARD</h1>
     <main>
-      <form class="jsForm" id="quiz1" data-question="1" action="index.html" method="post">
+      <form class="jsForm" id="quiz1" data-question="1">
         <h3>1. Which one of the following is not a JavaScript Data Type?</h3>
         <ul>
           <li><input name="quiz1" type="radio" value="a">Number</li>
@@ -28,7 +28,7 @@
         <button id="submit" type="button" name="button">Submit</button>
       </form>
 
-      <form class="jsForm" id="quiz2" data-question="2" action="index.html" method="post">
+      <form class="jsForm" id="quiz2" data-question="2">
         <h3>2. Which symbol is used for a single comments in Javascript?</h3>
         <ul>
           <li><input name="quiz2" type="radio" value="a">//</li>
@@ -39,7 +39,7 @@
         <button id="submit" type="button" name="button">Submit</button>
       </form>
 
-      <form class="jsForm" id="quiz3" data-question="3" action="index.html" method="post">
+      <form class="jsForm" id="quiz3" data-question="3">
         <h3>3. Which one of the following is not a looping structure in JavaScript?</h3>
         <ul>
           <li><input name="quiz3" type="radio" value="a">For</li>
@@ -50,7 +50,7 @@
         <button id="submit" type="button" name="button">Submit</button>
       </form>
 
-      <form class="jsForm" id="quiz4" data-question="4" action="index.html" method="post">
+      <form class="jsForm" id="quiz4" data-question="4">
         <h3>4. Which one of the following is not an undefined value in JavaScript?</h3>
         <ul>
           <li><input name="quiz4" type="radio" value="a">Variable used in the code doesn't exist</li>
@@ -61,7 +61,7 @@
         <button id="submit" type="button" name="button">Submit</button>
       </form>
 
-      <form class="jsForm" id="quiz5" data-question="5" action="index.html" method="post">
+      <form class="jsForm" id="quiz5" data-question="5">
         <h3>5. Which one of the following is not a type of Pop up boxes available in JavaScript?</h3>
         <ul>
           <li><input name="quiz5" type="radio" value="a">Alert</li>
@@ -71,10 +71,16 @@
         </ul>
         <button id="submit" type="button" name="button">Submit</button>
       </form>
+      <div id="results"></div>
+      <br>
     </main>
-
-
+    <footer>
+      <div class="pull-left">Total: 5 questions</div>
+    </footer>
   </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/javaScript.js"></script>
 
 </body>
 
