@@ -1,6 +1,7 @@
 # {JAVASCRIPT QUIZ-BOARD}
 #### {By DENZEL OUMA}
 ## Description
+* !(img/js4.jpg)[]
 Quiz-Board is a web app that allows anyone to attempt a few questions to test their JavaScript knowledge.  Each question has 1 mark allocated to every right answer you get
 ## Setup/Installation Requirements
 * git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
@@ -11,7 +12,7 @@ Quiz-Board is a web app that allows anyone to attempt a few questions to test th
 ## BDD
 | Behaviour     | Input           | Output |
 | :------------ |:---------------:| -----:|
-| User does not answer any question | 0,0,0,0,0 | Your final score is: 0 out of 5|
+| User does not answer any question | 0,0,0,0,0 | Your final score is: 0 out of 5 |
 | User answers only one question correctly | 1,0,0,0,0 | Your final score is: 1 out of 5 |
 | User answers two questions correctly | 2,4,0,0,0     |  Your final score is: 2 out of 5 |
 | User answers three questions correctly |  2,3,4,0,0 | Your final score is: 3 out of 5 |
