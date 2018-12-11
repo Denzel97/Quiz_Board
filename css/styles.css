@@ -1,5 +1,4 @@
 body {
-  font-family: 'Arial';
   font-size: 150%;
   background-image: url('../img/js5.jpg');
   background-repeat: no-repeat;
@@ -12,7 +11,7 @@ li {
 
 .container {
   position: relative;
-  width: 60%;
+  width: 70%;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -27,12 +26,26 @@ li {
   text-decoration: underline;
 }
 
-.pull-left{float: left;}
-.pull-right{float: right;}
+.pull-left {
+  float: left;
+}
 
-.container>footer {
+.pull-right {
+  float: right;
+}
+
+.jumbotron>footer {
   background: black;
   color: white;
   overflow: auto;
   opacity: 0.7;
+}
+
+.jumbotron {
+  opacity: 0.7;
+}
+
+.jumbotron>h1 {
+  font-family: 'Arial', sans-serif;
+  color: red;
 }
