@@ -1,7 +1,7 @@
 # {JAVASCRIPT QUIZ-BOARD}
 #### {By DENZEL OUMA}
 ## Description
-* !(img/js4.jpg)[]
+* ![Image](https://github.com/Denzel97/Quiz_Board/blob/gh-pages/img/js4.jpg)
 Quiz-Board is a web app that allows anyone to attempt a few questions to test their JavaScript knowledge.  Each question has 1 mark allocated to every right answer you get
 ## Setup/Installation Requirements
 * git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
