@@ -1,16 +1,4 @@
-var score = 0;
-var total = 5;
-var points = 1;
-var highest = 'total + point';
-
-function init() {
-  sessionStorage.setItem('a1', 'd');
-  sessionStorage.setItem('a2', 'a');
-  sessionStorage.setItem('a3', 'd');
-  sessionStorage.setItem('a4', 'b');
-  sessionStorage.setItem('a5', 'c');
-}
-
+// UI logic
 $(document).ready(function() {
   //to hide our questions
   $('.jsForm').hide();
@@ -31,9 +19,23 @@ $(document).ready(function() {
 });
 
 //introduce 'n' to represent Number
+// business logic
+var score = 0;
+var total = 5;
+var points = 1;
+var highest = 'total + point';
+
+function init() {
+  sessionStorage.setItem('a1', 'd');
+  sessionStorage.setItem('a2', 'a');
+  sessionStorage.setItem('a3', 'd');
+  sessionStorage.setItem('a4', 'b');
+  sessionStorage.setItem('a5', 'c');
+}
+
 function process(n) {
-  var submitted = $('input[name=quiz' + n + ']:checked').val();
-  if (submitted == sessionStorage.getItem('a' + n + '')) {
+  var mySubmitted = $('input[name=quiz' + n + ']:checked').val();
+  if (mySubmitted == sessionStorage.getItem('a' + n + '')) {
     score++;
   }
   if (n == total) {
