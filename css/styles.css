@@ -1,6 +1,13 @@
 body {
+  animation: colorchange 15s;
+}
+@keyframes colorchange {
+  0% {background: red;}
+  50% {background: yellow;}
+  100% {background: blue;}
+}
+
   font-size: 150%;
-  background-image: url('../img/js7.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
