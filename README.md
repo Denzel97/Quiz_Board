@@ -18,8 +18,7 @@
 | User answers three questions correctly |  2,3,4,0,0 | Your final score is: 3 out of 5 |
 | User answers four questions correctly | 2,1,3,4,0 | Your final score is: 4 out of 5 |
 | User answers all the five questions correctly | 3,1,4,2,1 | Your final score is: 5 out of 5 |
-| If the sum of two sides is <= third | 4,4,8 | not a triangle  |
-| If one enters a non-numerical value  |  w,3,4 | not a number  |
+
 
 ## Known Bugs
 * Not aware of any bugs so far, please let me know if you run into any at the provided contacts below
